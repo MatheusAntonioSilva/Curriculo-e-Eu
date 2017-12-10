@@ -1,0 +1,44 @@
+#banner2{
+    width: 100%;
+    height: 40%;
+}
+
+/* barra de menu principal */
+.navbar-default {
+   background: #000000 ;/*cor de fundo*/
+   border: 1px solid #000000;/*borda do menu*/
+}
+
+/* elemento que tem o nome "MeuSite" */
+.navbar-default .navbar-brand {
+   color: #FFFFFF;
+}
+
+
+/* item de menu quando tiver selecionado */
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+   color: #5387AD;
+   background-color: #F5F5F5;
+}
+
+/* item de menu */
+.navbar-default .navbar-nav>li>a {
+   color:#FFFFFF ;/*cor das letras do menu*/
+}
+
+/* mouse over no item de menu */
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+   color:#000000 ;/*letras do menu*/
+   background-color: #FFFFFF;/*cor de fundo do menu*/
+}
+
+/* item de menu dropdown quando tiver aberto */
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+   color: #5387AD;
+   background-color: #FFFFFF;
+}
